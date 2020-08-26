@@ -1,5 +1,5 @@
 # Investment-Calculator
-A flask web application designed to calculate future value of investment
+A flask web application designed to calculate future value of investments
 
 ## About
 This application accepts user inputs for the following values: years, initial investment, annual rate of return(ROI), and annual contribution. The value of the investment after the given years is then calculated.
