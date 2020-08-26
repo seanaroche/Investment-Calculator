@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Investment Calculator</h1>
+        <form action="" method="post">
+            <label for="Years">Years to accumulate</label>
+            <input
+                type="text"
+                placeholder="Years"
+                class="u-full-width"
+                name="years"
+            />
+            <label for="initial">Initial Investment</label>
+            <input
+                type="text"
+                placeholder="Initial Investment"
+                class="u-full-width"
+                name="initial"
+            />
+            <label for="roi">Annual rate of return</label>
+            <input
+                type="text"
+                placeholder="Annual ROI(%)"
+                class="u-full-width"
+                name="roi"
+            />
+            <label for="contribution">Annual contribution</label>
+            <input
+                type="text"
+                placeholder="Annual contribution"
+                class="u-full-width"
+                name="contribution"
+            />
+            <input
+                type="submit"
+                value="Calculate"
+                id="calc_btn"
+            />
+
+            {{ investment }}
+        </form>
+    </body>
+</html>
