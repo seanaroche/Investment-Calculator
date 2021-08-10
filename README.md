@@ -10,4 +10,4 @@ This application accepts user inputs for the following values: years, initial in
 * Create database for users to log in and save their investment information
 * Add options for contribution frequency, such as weekly, monthly, quarterly, etc. rather than exclusively annually 
 * Add options to change inflation and state/federal taxes
-* Add Unit Tests
+* Testing
